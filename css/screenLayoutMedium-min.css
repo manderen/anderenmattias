@@ -1,0 +1,23 @@
+@charset "UTF-8";
+header {
+  height: 150px;
+  /*matcha banner höjd*/
+  background: url(../media/bannerM.svg) no-repeat 90% 0px; }
+
+header a.logo {
+  width: 202px;
+  height: 63px;
+  top: 20px;
+  right: 20px;
+  background-image: url(../media/medium.svg); }
+
+/*bar som ger utrymme för banner innan article*/
+nav {
+  top: 150px; }
+
+/*bar som ger vit kant mellan article och footer*/
+nav a {
+  margin-right: 20px; }
+
+body {
+  background-image: none; }
